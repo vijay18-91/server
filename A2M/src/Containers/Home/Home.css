@@ -1,0 +1,22 @@
+.contentWrapper {
+    position: relative;
+    width: 70%;
+}
+
+.sideContent {
+    position: absolute;
+    right: 0;
+    width: 25%;
+}
+
+@media only screen and (max-width: 880px) {
+    .contentWrapper {
+        width: 95%;
+        padding: 0;
+        margin: 0 2.5%;
+    }
+
+    .sideContent {
+        display: none;
+    }
+}

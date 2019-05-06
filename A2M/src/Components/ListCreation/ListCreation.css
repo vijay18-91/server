@@ -1,0 +1,16 @@
+.listItem {
+    display: inline-block;
+    width: 45%;
+    padding: 10px 0 10px 20px;
+    color: black;
+}
+
+.listItem:hover {
+    color: #ff9114;
+    background-color: #ebd0b2;
+    border-radius: 5px;
+}
+
+.listItem label {
+    cursor: pointer;
+}

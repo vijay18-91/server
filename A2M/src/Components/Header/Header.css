@@ -1,0 +1,75 @@
+.Header {
+    height: 100px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    padding: 0 20px 10px 20px;
+}
+
+.Header .icon {
+    width: 100%;
+    height: 75px;
+}
+
+.simpleClass {
+    background-color: #ff9114;
+}
+
+.list {
+    list-style: none;
+    margin: 5px 0;
+    padding: 0px;
+    width: 60%;
+    display: inline-block;
+}
+
+.list li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.list li a:active,
+.list li a:hover,
+.list li a.activeClass,
+.userList li a:active,
+.userList li a:hover,
+.userList li a.activeClass {
+    color: #ff9114
+}
+
+.userList {
+    width: 39%;
+    height: 100%;
+    display: inline-block;
+    text-align: right;
+}
+
+.userList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.userList li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.userList li a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.icon h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+
